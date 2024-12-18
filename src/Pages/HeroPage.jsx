@@ -51,7 +51,7 @@ const HeroPage = () => {
         </h1>
         <div className="brand-container w-full flex items-center lg:justify-center space-x-7 lg:space-x-20  px-6 oveverflow-x-scroll scroll-smooth overflow-auto ">
           <div className="Fervoro">
-            <div className="brand-1 bg-[url('./Fervoro.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
+            <div className="brand-1 bg-[url('../Fervoro.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
               {/* <h1 className="text-5xl text-[#d93827] font-Bebas ">Brand 1</h1> */}
             </div>
             <div className="brand-link w-[275px] lg:w-[375px] flex justify-between items-center p-5 font-Bebas text-5xl">
