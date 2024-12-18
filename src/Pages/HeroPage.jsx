@@ -22,7 +22,7 @@ const HeroPage = () => {
             Welcome to,
           </p>
           <motion.img
-            variants={fadeIn("down", 0.2)}
+            variants={fadeIn("down", 0.1)}
             initial="hidden"
             whileInView={"show"}
             viewport={{ once: false, amount: 0.2 }}
@@ -115,10 +115,10 @@ const HeroPage = () => {
       {/* Knitted Garments */}
       <div className="kinttedGarments w-full flex flex-col items-center lg:flex lg:flex-row lg:justify-center lg:gap-20">
         <motion.div
-          variants={fadeIn("right", 0.4)}
+          variants={fadeIn("right", 0.1)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.2 }}
           className="kinttedcontent"
         >
           <h1 className="font-Bebas text-[#222222] text-center text-7xl lg:text-[100px]">
@@ -141,10 +141,10 @@ const HeroPage = () => {
           </p>
         </motion.div>
         <motion.div
-          variants={fadeIn("left", 0.4)}
+          variants={fadeIn("left", 0.1)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.2 }}
           className="kinttedImage pb-8"
         >
           <div className="w-[380px] h-[500px] md:w-[700px] md:h-[500px] lg:w-[1000px] lg:h-[950px] bg-[url('../knittedimage.jpg')] bg-cover bg-left rounded-lg"></div>
@@ -161,10 +161,10 @@ const HeroPage = () => {
       {/* sustainable fashion Image */}
       <div className="sustainableImage">
         <motion.div
-          variants={fadeIn("up", 0.4)}
+          variants={fadeIn("up", 0.1)}
           initial="hidden"
           whileInView={"show"}
-          viewport={{ once: false, amount: 0.7 }}
+          viewport={{ once: false, amount: 0.2 }}
           className="image w-full h-[960px] bg-[url('../sustainablefashion.jpg')] bg-cover bg-top"
         >
           <h1 className="font-Bebas text-[#222222] text-[70px] md:text-[100px] lg:text-[170px] text-center">
