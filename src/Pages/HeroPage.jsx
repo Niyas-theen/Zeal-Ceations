@@ -62,7 +62,7 @@ const HeroPage = () => {
             </div>
           </div>
           <div className="ardeur">
-            <div className="brand-2 bg-[url('./Ardeur.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
+            <div className="brand-2 bg-[url('../Ardeur.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
               {/* <h1 className="text-5xl text-[#d93827] font-Bebas ">Brand 1</h1> */}
             </div>
             <div className="brand-link w-[275px] lg:w-[375px] flex justify-between items-center p-5 font-Bebas text-5xl">
@@ -73,7 +73,7 @@ const HeroPage = () => {
             </div>
           </div>
           <div className="revisited">
-            <div className="brand-3 bg-[url('./Revisited.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
+            <div className="brand-3 bg-[url('../Revisited.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
               {/* <h1 className="text-5xl text-[#d93827] font-Bebas ">Brand 3</h1> */}
             </div>
             <div className="brand-link w-[275px] lg:w-[375px] flex justify-between items-center p-5 font-Bebas text-5xl">
@@ -84,7 +84,7 @@ const HeroPage = () => {
             </div>
           </div>
           <div className="streetz">
-            <div className="brand-4 bg-[url('./Streetz.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
+            <div className="brand-4 bg-[url('../Streetz.jpg')] bg-cover w-[275px] h-[400px] lg:w-[375px] lg:h-[600px] bg-[#222222] flex justify-center items-center rounded-xl">
               {/* <h1 className="text-5xl text-[#d93827] font-Bebas ">Brand 4</h1> */}
             </div>
             <div className="brand-link w-[275px] lg:w-[375px] flex justify-between items-center p-5 font-Bebas text-5xl">
@@ -122,7 +122,7 @@ const HeroPage = () => {
           </p>
         </div>
         <div className="kinttedImage pb-8">
-          <div className="w-[380px] h-[500px] md:w-[700px] md:h-[500px] lg:w-[1000px] lg:h-[950px] bg-[url('./knittedimage.jpg')] bg-cover bg-left rounded-lg"></div>
+          <div className="w-[380px] h-[500px] md:w-[700px] md:h-[500px] lg:w-[1000px] lg:h-[950px] bg-[url('../knittedimage.jpg')] bg-cover bg-left rounded-lg"></div>
         </div>
       </div>
 
@@ -135,7 +135,7 @@ const HeroPage = () => {
 
       {/* sustainable fashion Image */}
       <div className="sustainableImage">
-        <div className="image w-full h-[960px] bg-[url('./sustainablefashion.jpg')] bg-cover bg-top">
+        <div className="image w-full h-[960px] bg-[url('../sustainablefashion.jpg')] bg-cover bg-top">
           <h1 className="font-Bebas text-[#222222] text-[70px] md:text-[100px] lg:text-[170px] text-center">
             eco fashion{" "}
           </h1>
