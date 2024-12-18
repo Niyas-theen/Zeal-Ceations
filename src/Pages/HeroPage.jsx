@@ -3,6 +3,9 @@ import Marquee from "react-fast-marquee";
 import Header from "../Components/Header";
 import Footer from "../Components/Footer";
 
+import { motion } from 'framer-motion'
+import { fadeIn } from "../variants";
+
 const HeroPage = () => {
   return (
     <>
@@ -18,7 +21,11 @@ const HeroPage = () => {
           <p className="text-xl text-[#222222] font-poppins pb-5">
             Welcome to,
           </p>
-          <img
+          <motion.img
+            variants={fadeIn("down", 0.2)}
+            initial="hidden"
+            whileInView={"show"}
+            viewport={{ once: false, amount: 0.2 }}
             className="w-[300px] lg:w-[600px]"
             src="./CompanyName.png"
             alt=""
@@ -45,7 +52,13 @@ const HeroPage = () => {
       </div>
 
       {/* Our Brands */}
-      <div className="pb-20">
+      <motion.div
+        variants={fadeIn("up", 0.1)}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.2 }}
+        className="pb-20"
+      >
         <h1 className="font-Bebas text-[#222222] text-7xl px-10 space-x-10 text-center pb-8">
           Our Brands
         </h1>
@@ -95,13 +108,19 @@ const HeroPage = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* Studio & showroom */}
 
       {/* Knitted Garments */}
       <div className="kinttedGarments w-full flex flex-col items-center lg:flex lg:flex-row lg:justify-center lg:gap-20">
-        <div className="kinttedcontent">
+        <motion.div
+          variants={fadeIn("right", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="kinttedcontent"
+        >
           <h1 className="font-Bebas text-[#222222] text-center text-7xl lg:text-[100px]">
             Knitted Garments
           </h1>
@@ -120,10 +139,16 @@ const HeroPage = () => {
             efficient risk management, fast shipments and comprehensive
             reporting.
           </p>
-        </div>
-        <div className="kinttedImage pb-8">
+        </motion.div>
+        <motion.div
+          variants={fadeIn("left", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="kinttedImage pb-8"
+        >
           <div className="w-[380px] h-[500px] md:w-[700px] md:h-[500px] lg:w-[1000px] lg:h-[950px] bg-[url('../knittedimage.jpg')] bg-cover bg-left rounded-lg"></div>
-        </div>
+        </motion.div>
       </div>
 
       {/* sustainable fashion */}
@@ -135,7 +160,13 @@ const HeroPage = () => {
 
       {/* sustainable fashion Image */}
       <div className="sustainableImage">
-        <div className="image w-full h-[960px] bg-[url('../sustainablefashion.jpg')] bg-cover bg-top">
+        <motion.div
+          variants={fadeIn("up", 0.4)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="image w-full h-[960px] bg-[url('../sustainablefashion.jpg')] bg-cover bg-top"
+        >
           <h1 className="font-Bebas text-[#222222] text-[70px] md:text-[100px] lg:text-[170px] text-center">
             eco fashion{" "}
           </h1>
@@ -145,7 +176,7 @@ const HeroPage = () => {
             practices, and reducing waste. It focuses on creating long-lasting,
             eco-friendly pieces while promoting social responsibility.
           </p>
-        </div>
+        </motion.div>
       </div>
 
       {/* Footer */}
