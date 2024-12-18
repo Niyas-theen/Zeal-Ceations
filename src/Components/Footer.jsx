@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="logoName w-full  ">
           <img
             className="w-[250px] px-5 pb-7 md:w-[350px] md:px-10 lg:w-[500px]"
-            src="./public/CompanyName.png"
+            src="../CompanyName.png"
             alt="logo"
           />
         </div>
